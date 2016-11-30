@@ -1,0 +1,31 @@
+*.pyc
+*.pyo
+.DS_Store
+__pycache__/
+
+# Translations
+*.mo
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# virtualenv
+venv/
+ENV/
+myvenv/
+
+database/
+#static/
+media/
+.idea
+whoosh_index
+
+migrations/
+!migrations/__init__.py
+
+#settings.py
+
